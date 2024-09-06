@@ -18,10 +18,11 @@ public class ShoppingCart {
         spaceIdx = custName.indexOf(" ");
         System.out.println(spaceIdx);
 
-
         // Use the substring method parse out the first name and print it.
-        firstName = custName.substring(0, 5); // Can work with spaceIdx
+        firstName = custName.substring(0, 5);
         System.out.println(firstName);
+
+
 
 
     }
